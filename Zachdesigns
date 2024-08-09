@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhoana's Digital Invitations</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #444;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff7f50;
+        }
+
+        section {
+            margin: 40px 20px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item img,
+        .project-item video {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .quote {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jhoana's Digital Invitations</h1>
+        <p>Elegancia y modernidad para tu boda</p>
+    </header>
+
+    <nav>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#cotizaciones">Cotizaciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="tu-imagen.jpg" alt="Proyecto 1">
+                <p>Descripción del Proyecto 1</p>
+            </div>
+            <div class="project-item">
+                <video controls>
+                    <source src="tu-video.mp4" type="video/mp4">
+                    Tu navegador no soporta video.
+                </video>
+                <p>Descripción del Proyecto 2</p>
+            </div>
+            <div class="project-item">
+                <a href="tu-pdf.pdf" target="_blank">Ver PDF del Proyecto 3</a>
+                <p>Descripción del Proyecto 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cotizaciones">
+        <h2>Cotizaciones</h2>
+        <p class="quote">"Cada boda es única, y tus invitaciones también deben serlo. Contáctame para una cotización personalizada."</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Sigue mi trabajo en redes sociales:</p>
+        <p>
+            <a href="https://www.instagram.com/tu_usuario" target="_blank">Instagram</a> | 
+            <a href="https://www.facebook.com/tu_usuario" target="_blank">Facebook</a> | 
+            <a href="https://www.twitter.com/tu_usuario" target="_blank">Twitter</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jhoana's Digital Invitations. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
